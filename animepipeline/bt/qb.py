@@ -137,8 +137,8 @@ class QBittorrentManager:
         logger.info(f"Editing torrent file: {file_path} ...")
         new_torrent.private = False
         new_torrent.announce_urls = ANNOUNCE_URLS
-        new_torrent.comment = "Created by TensoRaws/AnimePipeline"
-        new_torrent.created_by = "TensoRaws"
+        new_torrent.comment = "Created by EutropicAI/AnimePipeline"
+        new_torrent.created_by = "EutropicAI"
         new_torrent.to_file(torrent_file_save_path)
 
         return new_torrent.info_hash

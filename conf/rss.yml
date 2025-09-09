@@ -1,5 +1,5 @@
 base:
-  uploader: TensoRaws
+  uploader: EutropicAI
   script: default.py
   param: default.txt
   slice: true

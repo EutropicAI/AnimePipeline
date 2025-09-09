@@ -33,7 +33,7 @@ class PostTemplate:
         video_path: Union[str, Path],
         bangumi_url: str,
         chinese_name: Optional[str] = None,
-        uploader: str = "TensoRaws",
+        uploader: str = "EutropicAI",
         announcement: Optional[str] = None,
         adivertisement_images: Optional[List[str]] = None,
     ) -> None:
@@ -74,9 +74,9 @@ Using FinalRip for distributed video processing."""
         else:
             # 招新海报，电报群，电报频道
             self.adivertisement_images = [
-                "https://raw.githubusercontent.com/TensoRaws/.github/refs/heads/main/TensoRaws%E6%8B%9B%E6%96%B0.jpg",
-                "https://raw.githubusercontent.com/TensoRaws/.github/refs/heads/main/TensoRaws%E7%94%B5%E6%8A%A5%E7%BE%A4.png",
-                "https://raw.githubusercontent.com/TensoRaws/.github/refs/heads/main/TensoRaws%E7%94%B5%E6%8A%A5%E9%A2%91%E9%81%93.png",
+                "https://raw.githubusercontent.com/EutropicAI/.github/refs/heads/main/EutropicAI%E6%8B%9B%E6%96%B0.jpg",
+                "https://raw.githubusercontent.com/EutropicAI/.github/refs/heads/main/EutropicAI%E7%94%B5%E6%8A%A5%E7%BE%A4.png",
+                "https://raw.githubusercontent.com/EutropicAI/.github/refs/heads/main/EutropicAI%E7%94%B5%E6%8A%A5%E9%A2%91%E9%81%93.png",
             ]
 
     def html(self) -> str:

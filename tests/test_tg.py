@@ -19,7 +19,7 @@ async def test_tg_bot() -> None:
         text=get_telegram_text(
             chinese_name="from unit test ~~~  |  败犬女主太多了！",
             episode=2,
-            file_name="[TensoRaws] Make Heroine ga Oosugiru! [02] [1080p AVC-8bit FLAC].mkv",
+            file_name="[EutropicAI] Make Heroine ga Oosugiru! [02] [1080p AVC-8bit FLAC].mkv",
             torrent_file_hash="this_is_a_fake_hash",
         )
     )

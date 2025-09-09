@@ -16,11 +16,11 @@ def test_gen_file_name() -> None:
         path=str(TEST_VIDEO_PATH),
         episode=1,
         name="test 114",
-        uploader="TensoRaws",
+        uploader="EutropicAI",
     )
 
     name = gen_file_name(anime_info=anime_info)
-    assert name == "[TensoRaws] test 114 [01] [WEBRip 144p AVC-8bit AAC].mp4"
+    assert name == "[EutropicAI] test 114 [01] [WEBRip 144p AVC-8bit AAC].mp4"
 
 
 def test_rename_file() -> None:
@@ -32,8 +32,8 @@ def test_rename_file() -> None:
         path=str(ASSETS_PATH / "copy_test_144p.mp4"),
         episode=1,
         name="test 114",
-        uploader="TensoRaws",
+        uploader="EutropicAI",
     )
 
     p = rename_file(anime_info=anime_info)
-    assert p.name == "[TensoRaws] test 114 [01] [WEBRip 144p AVC-8bit AAC].mp4"
+    assert p.name == "[EutropicAI] test 114 [01] [WEBRip 144p AVC-8bit AAC].mp4"

@@ -276,7 +276,7 @@ class Loop:
                 video_path=finalrip_downloaded_path,
                 bangumi_url=task_info.bangumi,  # type: ignore
                 chinese_name=task_info.translation,
-                uploader="TensoRaws",
+                uploader="EutropicAI",
             )
 
             post_template.save(

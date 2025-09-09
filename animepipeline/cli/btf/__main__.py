@@ -24,7 +24,7 @@ args = parser.parse_args()
 
 def main() -> None:
     if args.UPLOADER is None:
-        args.UPLOADER = "TensoRaws"
+        args.UPLOADER = "EutropicAI"
 
     # Make torrent file
     if args.TORRENT is not None:

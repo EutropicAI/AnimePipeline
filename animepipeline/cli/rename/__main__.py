@@ -23,7 +23,7 @@ def main() -> None:
     # TODO: Support withdraw of renaming
 
     if args.UPLOADER is None:
-        args.UPLOADER = "TensoRaws"
+        args.UPLOADER = "EutropicAI"
 
     path = Path(args.PATH)
 
