@@ -2,17 +2,12 @@
 
 auto encode new anime episode, driven by [**FinalRip**](https://github.com/EutropicAI/FinalRip)
 
-[![codecov](https://codecov.io/gh/EutropicAI/AnimePipeline/graph/badge.svg?token=CtgLouRy8u)](https://codecov.io/gh/EutropicAI/AnimePipeline)
 [![CI-test](https://github.com/EutropicAI/AnimePipeline/actions/workflows/CI-test.yml/badge.svg)](https://github.com/EutropicAI/AnimePipeline/actions/workflows/CI-test.yml)
 [![CI-test-cli](https://github.com/EutropicAI/AnimePipeline/actions/workflows/CI-test-cli.yml/badge.svg)](https://github.com/EutropicAI/AnimePipeline/actions/workflows/CI-test-cli.yml)
 [![Docker Build CI](https://github.com/EutropicAI/AnimePipeline/actions/workflows/CI-docker.yml/badge.svg)](https://github.com/EutropicAI/AnimePipeline/actions/workflows/CI-docker.yml)
 [![Release](https://github.com/EutropicAI/AnimePipeline/actions/workflows/Release.yml/badge.svg)](https://github.com/EutropicAI/AnimePipeline/actions/workflows/Release.yml)
 [![PyPI version](https://badge.fury.io/py/animepipeline.svg)](https://badge.fury.io/py/animepipeline)
 ![GitHub](https://img.shields.io/github/license/EutropicAI/AnimePipeline)
-
-### Architecture
-
-![AnimePipeline](https://raw.githubusercontent.com/EutropicAI/.github/refs/heads/main/animepipeline.png)
 
 ### Installation
 
