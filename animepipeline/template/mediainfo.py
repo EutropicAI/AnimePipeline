@@ -4,11 +4,11 @@ from typing import List, Union
 from animepipeline.mediainfo import get_media_info
 
 
-def get_media_info_block(video_path: Union[str, Path], uploader: str = "TensoRaws") -> str:
+def get_media_info_block(video_path: Union[str, Path], uploader: str = "EutropicAI") -> str:
     """
     Generate a code block for media info.
 
-    RELEASE.NAME........: [TensoRaws] Fate/Kaleid Liner Prisma Illya [01] [WEBRip 2160p HEVC-10bit FLAC].mkv
+    RELEASE.NAME........: [EutropicAI] Fate/Kaleid Liner Prisma Illya [01] [WEBRip 2160p HEVC-10bit FLAC].mkv
     RELEASE.DATE........: 2022-07-09
     RELEASE.SIZE........: 114514.1 GiB
     RELEASE.FORMAT......: Matroska
@@ -24,7 +24,7 @@ def get_media_info_block(video_path: Union[str, Path], uploader: str = "TensoRaw
     SUBTITLE#03.........: CHT, SRT
     SUBTITLE#04.........: CHT&ENG, ASS
     SUBTITLE#05.........: ENG&CHT, ASS
-    UPLOADER............: TensoRaws
+    UPLOADER............: EutropicAI
     """
     media_info = get_media_info(video_path=video_path)
 

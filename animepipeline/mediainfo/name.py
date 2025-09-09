@@ -10,9 +10,9 @@ def gen_file_name(anime_info: FileNameInfo) -> str:
     """
     Auto generate the file name, based on the media info of the file
 
-    anime_info: FileNameInfo (path: xx.mkv, episode: 1, name: Fate/Kaleid Liner Prisma Illya, uploader: TensoRaws, type: WEBRip)
+    anime_info: FileNameInfo (path: xx.mkv, episode: 1, name: Fate/Kaleid Liner Prisma Illya, uploader: EutropicAI, type: WEBRip)
 
-    -> [TensoRaws] Fate/Kaleid Liner Prisma Illya [01] [WEBRip 1080p HEVC-10bit FLAC].mkv
+    -> [EutropicAI] Fate/Kaleid Liner Prisma Illya [01] [WEBRip 1080p HEVC-10bit FLAC].mkv
 
     :param anime_info: FileNameInfo
     :return:

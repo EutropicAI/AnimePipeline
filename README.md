@@ -1,18 +1,18 @@
 # AnimePipeline
 
-auto encode new anime episode, driven by [**FinalRip**](https://github.com/TensoRaws/FinalRip)
+auto encode new anime episode, driven by [**FinalRip**](https://github.com/EutropicAI/FinalRip)
 
-[![codecov](https://codecov.io/gh/TensoRaws/AnimePipeline/graph/badge.svg?token=CtgLouRy8u)](https://codecov.io/gh/TensoRaws/AnimePipeline)
-[![CI-test](https://github.com/TensoRaws/AnimePipeline/actions/workflows/CI-test.yml/badge.svg)](https://github.com/TensoRaws/AnimePipeline/actions/workflows/CI-test.yml)
-[![CI-test-cli](https://github.com/TensoRaws/AnimePipeline/actions/workflows/CI-test-cli.yml/badge.svg)](https://github.com/TensoRaws/AnimePipeline/actions/workflows/CI-test-cli.yml)
-[![Docker Build CI](https://github.com/TensoRaws/AnimePipeline/actions/workflows/CI-docker.yml/badge.svg)](https://github.com/TensoRaws/AnimePipeline/actions/workflows/CI-docker.yml)
-[![Release](https://github.com/TensoRaws/AnimePipeline/actions/workflows/Release.yml/badge.svg)](https://github.com/TensoRaws/AnimePipeline/actions/workflows/Release.yml)
+[![codecov](https://codecov.io/gh/EutropicAI/AnimePipeline/graph/badge.svg?token=CtgLouRy8u)](https://codecov.io/gh/EutropicAI/AnimePipeline)
+[![CI-test](https://github.com/EutropicAI/AnimePipeline/actions/workflows/CI-test.yml/badge.svg)](https://github.com/EutropicAI/AnimePipeline/actions/workflows/CI-test.yml)
+[![CI-test-cli](https://github.com/EutropicAI/AnimePipeline/actions/workflows/CI-test-cli.yml/badge.svg)](https://github.com/EutropicAI/AnimePipeline/actions/workflows/CI-test-cli.yml)
+[![Docker Build CI](https://github.com/EutropicAI/AnimePipeline/actions/workflows/CI-docker.yml/badge.svg)](https://github.com/EutropicAI/AnimePipeline/actions/workflows/CI-docker.yml)
+[![Release](https://github.com/EutropicAI/AnimePipeline/actions/workflows/Release.yml/badge.svg)](https://github.com/EutropicAI/AnimePipeline/actions/workflows/Release.yml)
 [![PyPI version](https://badge.fury.io/py/animepipeline.svg)](https://badge.fury.io/py/animepipeline)
-![GitHub](https://img.shields.io/github/license/TensoRaws/AnimePipeline)
+![GitHub](https://img.shields.io/github/license/EutropicAI/AnimePipeline)
 
 ### Architecture
 
-![AnimePipeline](https://raw.githubusercontent.com/TensoRaws/.github/refs/heads/main/animepipeline.png)
+![AnimePipeline](https://raw.githubusercontent.com/EutropicAI/.github/refs/heads/main/animepipeline.png)
 
 ### Installation
 
@@ -61,7 +61,7 @@ you should provide the compatible params and scripts in the [params](./conf/para
 
 ### Reference
 
-- [**FinalRip**](https://github.com/TensoRaws/FinalRip)
+- [**FinalRip**](https://github.com/EutropicAI/FinalRip)
 - [FFmpeg](https://github.com/FFmpeg/FFmpeg)
 - [VapourSynth](https://github.com/vapoursynth/vapoursynth)
 - [asyncio](https://docs.python.org/3/library/asyncio.html)
@@ -72,4 +72,4 @@ you should provide the compatible params and scripts in the [params](./conf/para
 
 ### License
 
-This project is licensed under the GPL-3.0 license - see the [LICENSE file](https://github.com/TensoRaws/AnimePipeline/blob/main/LICENSE) for details.
+This project is licensed under the GPL-3.0 license - see the [LICENSE file](./LICENSE) for details.

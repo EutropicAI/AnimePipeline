@@ -21,7 +21,7 @@ def test_post_template() -> None:
         video_path=TEST_VIDEO_PATH,
         bangumi_url="https://bgm.tv/subject/454684",
         chinese_name="BanG Dream! Ave Mujica",
-        uploader="TensoRaws",
+        uploader="EutropicAI",
     )
     print(post_template.html())
     print(post_template.markdown())
